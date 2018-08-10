@@ -1,17 +1,36 @@
 .navbar-wine {
-    background-color: #968C4E;
+    background-color: #585858;
 }
 
-.nav-link-white {
-    color: #D3D3D3;
+.navbar-brand.brand {
+    color: #FFFFFF;
+}
+
+.navbar-brand:hover {
+    color: #FFFFFF;
+}
+
+.navbar-brand:focus {
+    color: #FFFFFF;
+}
+
+.gray {
+    color: gray;
+}
+.white {
+    color: white;
+}
+
+.nav-link-blue {
+    color: #FFFFFF;
 }
 
 .nav-link-white:hover {
-    color: #FFFFFF;
+    color:  #2ECCFA;
 }
 
 .nav-link-white:focus {
-    color: #FFFFFF;
+    color: #2ECCFA;
 }
 
 .dropdown-toggle::after {

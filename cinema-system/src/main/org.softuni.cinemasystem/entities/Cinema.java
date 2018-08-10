@@ -9,20 +9,20 @@ import java.util.Set;
 @Table(name = "cinema")
 public class Cinema extends BaseEntity {
 
-    @Column(nullable = false)
+    @Column
     private String cinemaName;
 
-    @Column(nullable = false)
+    @Column
     private String address;
 
-    @Column(nullable = false)
+    @Column
     private String phone;
 
-    @Column(nullable = false)
+    @Column
     private String email;
 
-    @OneToMany(mappedBy = "cinema")
-    private Set<Hall> halls;
+//    @OneToMany(mappedBy = "cinema")
+//    private Set<Hall> halls;
 
     public Cinema() {
 
@@ -60,13 +60,13 @@ public class Cinema extends BaseEntity {
         this.email = email;
     }
 
-    public Set<Hall> getHalls() {
-        return halls;
-    }
-
-    public void setHalls(Set<Hall> halls) {
-        this.halls = halls;
-    }
+//    public Set<Hall> getHalls() {
+//        return halls;
+//    }
+//
+//    public void setHalls(Set<Hall> halls) {
+//        this.halls = halls;
+//    }
 }
 
 

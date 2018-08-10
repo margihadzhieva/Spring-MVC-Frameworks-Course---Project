@@ -1,0 +1,32 @@
+<th:block th:fragment="cinema-add-form" xmlns:th="http://www.w3.org/1999/xhtml">
+<main class="mt-2">
+    <h3 class="text-center font-weight:lighter">Add Cinema</h3>
+
+    <form class="w-50 mx-auto" th:method="POST">
+        <div class="form-group w-40">
+            <label for="cinemaName">Name</label>
+            <input type="text" name="cinemaName" class="form-control" id="cinemaName"
+                   placeholder="Name..."/>
+        </div>
+
+        <div class="form-group w-40">
+            <label for="address">Adress</label>
+            <input type="text" name="address" class="form-control" id="address" placeholder="Adress..."/>
+        </div>
+        <div class="form-group w-40">
+            <label for="phone">Phone</label>
+            <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone..."/>
+        </div>
+        <div class="form-group w-40">
+            <label for="email">Email</label>
+            <input type="text" name="email" class="form-control" id="email" placeholder="Email..."/>
+        </div>
+
+
+
+        <div class="button-holder d-flex justify-content-around">
+            <button type="submit" class="btn bg-cinema">Submit</button>
+        </div>
+    </form>
+</main>
+    </th:block>

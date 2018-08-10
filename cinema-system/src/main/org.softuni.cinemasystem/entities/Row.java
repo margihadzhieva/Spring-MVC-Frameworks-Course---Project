@@ -6,7 +6,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "row")
-public class Row extends BaseEntity{
+public class Seat extends BaseEntity{
 
     @Column(nullable = false)
     private Integer rowIndex;
