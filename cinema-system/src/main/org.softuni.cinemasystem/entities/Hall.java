@@ -19,7 +19,7 @@ public class Hall extends BaseEntity {
 
 
     @OneToMany(mappedBy = "hall")
-    private Set<Row> rows;
+    private Set<Seat> Seats;
 
     @OneToMany(mappedBy = "hall")
     private Set<FilmSession>  filmSessions;
