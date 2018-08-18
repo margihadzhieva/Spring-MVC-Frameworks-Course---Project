@@ -8,28 +8,18 @@ import java.util.Set;
 
 public class CinemaServiceModel {
 
-    private String Id;
-
     private String cinemaName;
+
 
     private String address;
 
+
     private String phone;
+
 
     private String email;
 
-  //  private Set<String> halls;
-
     public CinemaServiceModel() {
-
-    }
-
-    public String getId() {
-        return Id;
-    }
-
-    public void setId(String id) {
-        Id = id;
     }
 
     public String getCinemaName() {
@@ -63,15 +53,9 @@ public class CinemaServiceModel {
     public void setEmail(String email) {
         this.email = email;
     }
-
-//    public Set<String> getHalls() {
-//        return halls;
-//    }
-//
-//    public void setHalls(Set<String> halls) {
-//        this.halls = halls;
-//    }
 }
+
+
 
 
 

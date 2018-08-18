@@ -1,31 +1,36 @@
-package org.softuni.cinemasystem.models.service;
-
+package org.softuni.cinemasystem.models.view;
 
 import org.softuni.cinemasystem.entities.Cinema;
-import org.softuni.cinemasystem.entities.FilmSession;
-import org.softuni.cinemasystem.entities.Row;
 
-import javax.persistence.Column;
-import javax.persistence.JoinTable;
-import javax.persistence.ManyToMany;
-import javax.persistence.OneToMany;
 import java.util.Set;
 
-public class HallServiceModel {
+public class AllHallViewModel {
 
+
+    private String Id;
 
     private String hallName;
 
 
-    private Set<String> cinemas;
+    private Cinema cinema;
+
+
+    private Set<String> Seats;
 
 
     private Set<String> filmSessions;
 
-
     private Set<String> rows;
 
-    public HallServiceModel() {
+    public AllHallViewModel() {
+    }
+
+    public String getId() {
+        return Id;
+    }
+
+    public void setId(String id) {
+        Id = id;
     }
 
     public String getHallName() {
@@ -36,12 +41,20 @@ public class HallServiceModel {
         this.hallName = hallName;
     }
 
-    public Set<String> getCinemas() {
-        return cinemas;
+    public Cinema getCinema() {
+        return cinema;
     }
 
-    public void setCinemas(Set<String> cinemas) {
-        this.cinemas = cinemas;
+    public void setCinema(Cinema cinema) {
+        this.cinema = cinema;
+    }
+
+    public Set<String> getSeats() {
+        return Seats;
+    }
+
+    public void setSeats(Set<String> seats) {
+        Seats = seats;
     }
 
     public Set<String> getFilmSessions() {
@@ -59,9 +72,6 @@ public class HallServiceModel {
     public void setRows(Set<String> rows) {
         this.rows = rows;
     }
+
+
 }
-
-
-
-
-

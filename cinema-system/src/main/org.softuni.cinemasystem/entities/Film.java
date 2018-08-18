@@ -17,27 +17,17 @@ public class Film extends BaseEntity {
     @Column(nullable = false)
     private Integer duration;
 
-
     @Column(nullable = false)
     private String description;
-
 
     @Column(nullable = false)
     private String director;
 
-
     @Column(nullable = false)
     private String genre;
 
+    private String actors;
 
-    @Column(nullable = false)
-    private Date premiere;
-
-    @ManyToMany(mappedBy = "films")
-    private Set<Actor> actors;
-
-    @ManyToMany(mappedBy = "films")
-    private Set<Genre> genres;
 
     public Film() {
     }
@@ -82,27 +72,11 @@ public class Film extends BaseEntity {
         this.genre = genre;
     }
 
-    public Date getPremiere() {
-        return premiere;
-    }
-
-    public void setPremiere(Date premiere) {
-        this.premiere = premiere;
-    }
-
-    public Set<Actor> getActors() {
+    public String getActors() {
         return actors;
     }
 
-    public void setActors(Set<Actor> actors) {
+    public void setActors(String actors) {
         this.actors = actors;
-    }
-
-    public Set<Genre> getGenres() {
-        return genres;
-    }
-
-    public void setGenres(Set<Genre> genres) {
-        this.genres = genres;
     }
 }

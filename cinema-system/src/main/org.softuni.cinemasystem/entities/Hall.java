@@ -3,33 +3,29 @@ package org.softuni.cinemasystem.entities;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.util.HashSet;
 import java.util.Set;
 @Entity
 @Table(name = "hall")
 public class Hall extends BaseEntity {
 
-
+    @Column(nullable = false)
     private String hallName;
 
-
-
-    @ManyToOne
-    @JoinColumn(name = "cinema_id")
-    private Cinema cinema;
-
-
-    @OneToMany(mappedBy = "hall")
-    private Set<Seat> Seats;
+    @ManyToMany
+    @JoinTable(name = "cinemas_halls")
+    private Set<Cinema> cinemas;
 
     @OneToMany(mappedBy = "hall")
     private Set<FilmSession>  filmSessions;
 
-
+    @OneToMany
+    private Set<Row> rows;
 
     public Hall() {
+        this.cinemas = new HashSet<>();
 
     }
-
 
 
     public String getHallName() {
@@ -40,20 +36,12 @@ public class Hall extends BaseEntity {
         this.hallName = hallName;
     }
 
-    public Cinema getCinema() {
-        return cinema;
+    public Set<Cinema> getCinemas() {
+        return cinemas;
     }
 
-    public void setCinema(Cinema cinema) {
-        this.cinema = cinema;
-    }
-
-    public Set<Row> getRows() {
-        return rows;
-    }
-
-    public void setRows(Set<Row> rows) {
-        this.rows = rows;
+    public void setCinemas(Set<Cinema> cinemas) {
+        this.cinemas = cinemas;
     }
 
     public Set<FilmSession> getFilmSessions() {
@@ -62,5 +50,13 @@ public class Hall extends BaseEntity {
 
     public void setFilmSessions(Set<FilmSession> filmSessions) {
         this.filmSessions = filmSessions;
+    }
+
+    public Set<Row> getRows() {
+        return rows;
+    }
+
+    public void setRows(Set<Row> rows) {
+        this.rows = rows;
     }
 }

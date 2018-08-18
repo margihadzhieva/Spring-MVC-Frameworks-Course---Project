@@ -30,3 +30,46 @@
     </form>
 </main>
     </th:block>
+
+<th:block th:fragment="hall-add-form" xmlns:th="http://www.w3.org/1999/xhtml">
+    <main class="mt-2">
+        <h3 class="text-center font-weight:lighter">Add Hall</h3>
+        <form class="w-50 mx-auto" role="form" th:method="post" th:object="${hall}" th:action="@{/admin/hall/add}">
+
+            <div class="form-group w-40">
+                <label for="hallName">Name</label>
+                <input type="text" name="hallName" class="form-control" id="hallName"
+                       placeholder="Name..."/>
+            </div>
+
+          <!--&lt;!&ndash;<div class="form-group w-40">&ndash;&gt;-->
+                <!--&lt;!&ndash;<label for="cinemaId">ci</label>&ndash;&gt;-->
+                <!--&lt;!&ndash;<input type="text" name="cinemaId" class="form-control" id="cinemaId"&ndash;&gt;-->
+                       <!--&lt;!&ndash;placeholder="Name..."/>&ndash;&gt;-->
+            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+            <!--<div class="form-group w-40">-->
+                <!--<label class="col-sm-2 control-label" for="cinemaName">Cinema</label>-->
+                <!--<select class="form-control" for="cinemaId"  id="cinemaId" name = "cinemaId" >-->
+                    <!--<option th:each="cinema : ${cinemas}"-->
+
+                            <!--th:text="${cinema.cinemaName}">-->
+                    <!--</option>-->
+                <!--</select>-->
+            <!--</div>-->
+
+            <div class="form-group">
+                <label for="cinemas">Cinemas</label>
+                <select multiple class="form-control" id="cinemas" name="cinemas">
+                    <th:block th:each="cinemas : ${HallViewModel.getCinemas()}">
+                        <option th:value="${cinemas}" th:text="${cinemas}"
+                                th:selected="${hallInput.getCinemas() != null && hallInput.getCinemas().contains(cinema)}"></option>
+                    </th:block>
+                </select>
+            </div>
+
+            <div class="button-holder d-flex justify-content-around">
+                <button type="submit" class="btn bg-hall">Submit</button>
+            </div>
+        </form>
+    </main>
+</th:block>

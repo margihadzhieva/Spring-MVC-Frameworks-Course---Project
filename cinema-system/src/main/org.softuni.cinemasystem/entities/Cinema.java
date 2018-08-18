@@ -21,10 +21,15 @@ public class Cinema extends BaseEntity {
     @Column
     private String email;
 
-//    @OneToMany(mappedBy = "cinema")
-//    private Set<Hall> halls;
+ //   @OneToMany(mappedBy = "cinema")
+  //  private Set<Hall> halls;halls
+
+    //public Cinema(Set<Hall> halls) {
+  //      this.halls = new HashSet<>();
+    //}
 
     public Cinema() {
+
 
     }
 
