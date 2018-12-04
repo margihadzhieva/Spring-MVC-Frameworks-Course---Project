@@ -6,20 +6,18 @@ import javax.persistence.*;
     @Table(name = "row")
     public class Row extends BaseEntity{
 
-        @Column(nullable = false)
+
         private Integer rowIndex;
 
-        @Column(nullable = false)
+
         private int seats;
 
-        @ManyToOne
-        @JoinColumn(name = "hall_id")
         private Hall hall;
 
         public Row() {
         }
 
-
+        @Column(nullable = false)
         public Integer getRowIndex() {
             return rowIndex;
         }
@@ -27,7 +25,7 @@ import javax.persistence.*;
         public void setRowIndex(Integer rowIndex) {
             this.rowIndex = rowIndex;
         }
-
+        @Column(nullable = false)
         public int getSeats() {
             return seats;
         }
@@ -36,6 +34,8 @@ import javax.persistence.*;
             this.seats = seats;
         }
 
+        @ManyToOne
+        @JoinColumn(name = "hall_id")
         public Hall getHall() {
             return hall;
         }

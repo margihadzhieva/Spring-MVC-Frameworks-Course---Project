@@ -16,7 +16,4 @@ public interface CinemaService {
     Set<CinemaServiceModel> getAll();
 
 
-
-
-
 }

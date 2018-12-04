@@ -9,16 +9,16 @@ import java.util.Set;
 @Table(name = "cinema")
 public class Cinema extends BaseEntity {
 
-    @Column
+
     private String cinemaName;
 
-    @Column
+
     private String address;
 
-    @Column
+
     private String phone;
 
-    @Column
+
     private String email;
 
  //   @OneToMany(mappedBy = "cinema")

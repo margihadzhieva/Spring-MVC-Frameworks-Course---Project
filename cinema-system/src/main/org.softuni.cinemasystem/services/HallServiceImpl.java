@@ -56,7 +56,7 @@ public class HallServiceImpl implements HallService {
                 .findAll()
                 .stream()
                 .map(x -> this.modelMapper.map(x, HallServiceModel.class))
-                .collect(Collectors.toUnmodifiableSet());
+                .collect(Collectors.toSet());
 
     }
 

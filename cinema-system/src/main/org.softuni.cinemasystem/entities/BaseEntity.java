@@ -10,6 +10,12 @@ import javax.persistence.MappedSuperclass;
 
 @MappedSuperclass
 public abstract class BaseEntity {
+
+    private String id;
+
+    protected BaseEntity() {
+    }
+
     @Id
     @GeneratedValue(generator = "UUID")
     @GenericGenerator(
@@ -17,12 +23,6 @@ public abstract class BaseEntity {
             strategy = "org.hibernate.id.UUIDGenerator"
     )
     @Column(name = "id", nullable = false, unique = true, updatable = false)
-    private String id;
-
-    protected BaseEntity() {
-    }
-
-
     public String getId() {
         return id;
     }

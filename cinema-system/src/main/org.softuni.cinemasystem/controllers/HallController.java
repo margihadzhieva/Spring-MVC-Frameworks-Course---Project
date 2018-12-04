@@ -45,7 +45,7 @@ public class HallController extends BaseController {
                 .getAllHalls()
                 .stream()
                 .map(x -> this.modelMapper.map(x, AllHallViewModel.class))
-                .collect(Collectors.toUnmodifiableSet());
+                .collect(Collectors.toSet());
 
         modelAndView.addObject("allHalls", allHallViewModel);
 

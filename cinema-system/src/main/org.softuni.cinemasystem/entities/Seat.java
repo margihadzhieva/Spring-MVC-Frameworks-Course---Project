@@ -10,15 +10,15 @@ import javax.persistence.ManyToOne;
 @Embeddable
 class Seat {
 
-        @ManyToOne
-        @JoinColumn(name = "row_id")
+
         private Row row;
 
         private Integer seat;
 
     public Seat() {
     }
-
+    @ManyToOne
+    @JoinColumn(name = "row_id")
     public Row getRow() {
         return row;
     }

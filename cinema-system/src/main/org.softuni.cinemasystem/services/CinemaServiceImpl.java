@@ -36,7 +36,7 @@ public class CinemaServiceImpl implements CinemaService{
                 .findAll()
                 .stream()
                 .map(x-> this.modelMapper.map(x, CinemaServiceModel.class))
-                .collect(Collectors.toUnmodifiableSet());
+                .collect(Collectors.toSet());
     }
 }
 

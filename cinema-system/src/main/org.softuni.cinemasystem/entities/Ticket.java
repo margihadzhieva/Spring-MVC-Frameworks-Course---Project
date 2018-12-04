@@ -7,23 +7,17 @@ import javax.persistence.*;
     @Table(name ="ticket")
     public class Ticket extends BaseEntity {
 
-    @Embedded
     private Seat seat;
 
-    @Column
     private Double price;
 
-    @ManyToOne
-    @JoinColumn(name = "film_session_id")
     private FilmSession filmSession;
 
-    @ManyToOne
-    @JoinColumn(name = "user_id")
     private User user;
 
     public Ticket() {
     }
-
+    @Embedded
     public Seat getSeat() {
         return seat;
     }
@@ -31,7 +25,7 @@ import javax.persistence.*;
     public void setSeat(Seat seat) {
         this.seat = seat;
     }
-
+    @Column
     public Double getPrice() {
         return price;
     }
@@ -39,7 +33,8 @@ import javax.persistence.*;
     public void setPrice(Double price) {
         this.price = price;
     }
-
+    @ManyToOne
+    @JoinColumn(name = "film_session_id")
     public FilmSession getFilmSession() {
         return filmSession;
     }
@@ -47,7 +42,8 @@ import javax.persistence.*;
     public void setFilmSession(FilmSession filmSession) {
         this.filmSession = filmSession;
     }
-
+    @ManyToOne
+    @JoinColumn(name = "username")
     public User getUser() {
         return user;
     }

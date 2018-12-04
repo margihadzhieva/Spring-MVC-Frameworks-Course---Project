@@ -9,17 +9,16 @@ import java.util.Set;
 @Table(name = "hall")
 public class Hall extends BaseEntity {
 
-    @Column(nullable = false)
+
     private String hallName;
 
-    @ManyToMany
-    @JoinTable(name = "cinemas_halls")
+
     private Set<Cinema> cinemas;
 
-    @OneToMany(mappedBy = "hall")
+
     private Set<FilmSession>  filmSessions;
 
-    @OneToMany
+
     private Set<Row> rows;
 
     public Hall() {
@@ -27,7 +26,7 @@ public class Hall extends BaseEntity {
 
     }
 
-
+    @Column(nullable = false)
     public String getHallName() {
         return hallName;
     }
@@ -35,7 +34,8 @@ public class Hall extends BaseEntity {
     public void setHallName(String hallName) {
         this.hallName = hallName;
     }
-
+    @ManyToMany
+    @JoinTable(name = "cinemas_halls")
     public Set<Cinema> getCinemas() {
         return cinemas;
     }
@@ -43,7 +43,7 @@ public class Hall extends BaseEntity {
     public void setCinemas(Set<Cinema> cinemas) {
         this.cinemas = cinemas;
     }
-
+    @OneToMany(mappedBy = "hall")
     public Set<FilmSession> getFilmSessions() {
         return filmSessions;
     }
@@ -51,7 +51,7 @@ public class Hall extends BaseEntity {
     public void setFilmSessions(Set<FilmSession> filmSessions) {
         this.filmSessions = filmSessions;
     }
-
+    @OneToMany
     public Set<Row> getRows() {
         return rows;
     }

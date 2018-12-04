@@ -12,15 +12,10 @@ public class FilmSession extends BaseEntity {
 
     private LocalDateTime time;
 
-    @ManyToOne
-    @JoinColumn(name = "film_id")
     private Film film;
 
-    @ManyToOne
-    @JoinColumn(name = "hall")
     private Hall hall;
 
-    @OneToMany(mappedBy = "filmSession")
     private Set<Ticket> tickets;
 
 
@@ -35,6 +30,8 @@ public class FilmSession extends BaseEntity {
         this.time = time;
     }
 
+    @ManyToOne
+    @JoinColumn(name = "film_id")
     public Film getFilm() {
         return film;
     }
@@ -43,6 +40,8 @@ public class FilmSession extends BaseEntity {
         this.film = film;
     }
 
+    @ManyToOne
+    @JoinColumn(name = "hall")
     public Hall getHall() {
         return hall;
     }
@@ -51,6 +50,7 @@ public class FilmSession extends BaseEntity {
         this.hall = hall;
     }
 
+    @OneToMany(mappedBy = "filmSession")
     public Set<Ticket> getTickets() {
         return tickets;
     }

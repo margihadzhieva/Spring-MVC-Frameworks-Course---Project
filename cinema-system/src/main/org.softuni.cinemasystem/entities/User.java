@@ -1,34 +1,44 @@
 package org.softuni.cinemasystem.entities;
 
 import org.hibernate.annotations.GenericGenerator;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.*;
+import java.util.Collection;
+import java.util.Set;
 
 @Entity
 @Table(name ="users")
-public class User extends BaseEntity {
+public class User extends BaseEntity implements UserDetails {
 
-    @Column(nullable = false)
     private String username;
 
-    @Column(nullable = false)
     private String firstName;
 
-    @Column(nullable = false)
     private String lastName;
 
-    @Column(nullable = false)
     private String phone;
 
-    @Column(nullable = false)
     private String password;
 
-    @Column(nullable = false)
     private String email;
+
+    private boolean isAccountNonExpired;
+
+    private boolean isAccountNonLocked;
+
+    private boolean isCredentialsNonExpired;
+
+    private boolean isEnabled;
+
+    private Set<UserRole> authorities;
 
     public User() {
     }
 
+    @Override
+    @Column(name = "username", nullable = false, unique = true)
     public String getUsername() {
         return username;
     }
@@ -37,6 +47,7 @@ public class User extends BaseEntity {
         this.username = username;
     }
 
+    @Column(name = "first_name", nullable = false)
     public String getFirstName() {
         return firstName;
     }
@@ -45,6 +56,7 @@ public class User extends BaseEntity {
         this.firstName = firstName;
     }
 
+    @Column(name = "last_name", nullable = false)
     public String getLastName() {
         return lastName;
     }
@@ -53,6 +65,7 @@ public class User extends BaseEntity {
         this.lastName = lastName;
     }
 
+    @Column(name = "phone", nullable = false)
     public String getPhone() {
         return phone;
     }
@@ -61,6 +74,8 @@ public class User extends BaseEntity {
         this.phone = phone;
     }
 
+    @Override
+    @Column(name = "password", nullable = false)
     public String getPassword() {
         return password;
     }
@@ -69,11 +84,65 @@ public class User extends BaseEntity {
         this.password = password;
     }
 
+    @Column(name = "email", nullable = false, unique = true)
     public String getEmail() {
         return email;
     }
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    @Override
+    public boolean isAccountNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isAccountNonLocked() {
+        return true;
+    }
+
+    @Override
+    public boolean isCredentialsNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isEnabled() {
+        return true;
+    }
+
+    public void setAccountNonExpired(boolean accountNonExpired) {
+        isAccountNonExpired = accountNonExpired;
+    }
+
+    public void setAccountNonLocked(boolean accountNonLocked) {
+        isAccountNonLocked = accountNonLocked;
+    }
+
+    public void setCredentialsNonExpired(boolean credentialsNonExpired) {
+        isCredentialsNonExpired = credentialsNonExpired;
+    }
+
+    public void setEnabled(boolean enabled) {
+        isEnabled = enabled;
+    }
+
+    @Override
+    @ManyToMany(cascade = CascadeType.ALL
+            , targetEntity = UserRole.class
+            , fetch = FetchType.EAGER)
+    @JoinTable(
+            name = "users_roles",
+            joinColumns = @JoinColumn(name = "user_id"),
+            inverseJoinColumns = @JoinColumn(name = "role_id")
+    )
+    public Set<UserRole> getAuthorities() {
+        return this.authorities;
+    }
+
+    public void setAuthorities(Set<UserRole> authorities) {
+        this.authorities = authorities;
     }
 }

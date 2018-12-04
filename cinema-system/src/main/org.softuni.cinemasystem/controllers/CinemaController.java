@@ -43,7 +43,7 @@ public class CinemaController extends BaseController {
                 .getAll()
                 .stream()
                 .map(x -> this.modelMapper.map(x, AllCinemaViewModel.class))
-                .collect(Collectors.toUnmodifiableSet());
+                .collect(Collectors.toSet());
 
         modelAndView.addObject("allCinemas", allCinemaVModel);
 
