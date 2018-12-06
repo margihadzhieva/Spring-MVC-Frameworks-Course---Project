@@ -25,10 +25,16 @@ public class CinemaServiceImpl implements CinemaService{
     }
 
     @Override
-    public void createCinema(CinemaServiceModel cinema) {
-            Cinema cinemaEntity = modelMapper.map(cinema, Cinema.class);
+    public boolean addCinema(CinemaServiceModel cinemaServiceModel) {
+        Cinema cinemaEntity = this.modelMapper.map(cinemaServiceModel, Cinema.class);
+        try {
             this.cinemaRepository.save(cinemaEntity);
-        }
+        } catch (Exception ignore)
+        {
+        return false;
+      }
+    return  true;}
+
 
     @Override
     public Set<CinemaServiceModel> getAll() {

@@ -1,35 +1,29 @@
-package org.softuni.cinemasystem.entities;
+package org.softuni.cinemasystem.models.service;
 
-import org.hibernate.annotations.GenericGenerator;
+public class FilmServiceModel {
+    private String Id;
 
-import javax.persistence.*;
-import java.util.Date;
-import java.util.Set;
-
-@Entity
-@Table
-public class Film extends BaseEntity {
-
-
-    @Column(nullable = false)
     private String title;
 
-    @Column(nullable = false)
     private Integer duration;
 
-    @Column(nullable = false)
     private String description;
 
-    @Column(nullable = false)
     private String director;
 
-    @Column(nullable = false)
     private String genre;
 
     private String actors;
 
+    public FilmServiceModel() {
+    }
 
-    public Film() {
+    public String getId() {
+        return Id;
+    }
+
+    public void setId(String id) {
+        Id = id;
     }
 
     public String getTitle() {

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <th:block th:replace="fragments/head"></th:block>
+</head>
+<body>
+<div class="container-fluid">
+    <header>
+        <th:block th:replace="fragments/navbar"></th:block>
+    </header>
+    <main class="mt-3">
+        <h1 class="text-dark text-center">All Cinemas</h1>
+        <hr class="hr-2 bg-eventures">
+        <table class="table table-eventures">
+            <thead>
+            <tr class="font-weight-bold">
+                <th class="w-5">#</th>
+                <th class="w-30">Cinema</th>
+                <th class="w-15">Address</th>
+                <th class="w-15">Phone</th>
+                <th class="w-25">Email</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="cinema, iter : ${allCinemas}" th:object="${cinema}">
+                <td class="w-5" th:text="${iter.index + 1}"></td>
+                <td class="w-30" th:text="*{cinemaName}"></td>
+                <td class="w-15" th:text="*{address}"></td>
+                <td class="w-15" th:text="*{phone}"></td>
+                <td class="w-25" th:text="*{email}"></td>
+            </tr>
+            </tbody>
+        </table>
+    </main>
+</div>
+</body>
+</html>

@@ -17,6 +17,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 @Controller
+@RequestMapping("/cinema")
 public class CinemaController extends BaseController {
 
     private CinemaService cinemaService;
@@ -29,14 +30,14 @@ public class CinemaController extends BaseController {
     }
 
 
-    @GetMapping("/admin")
+    @GetMapping("/add")
     public ModelAndView adminIndexPage() {
-        return new ModelAndView("/admin/index");
+        return new ModelAndView("/cinema-add");
 
     }
 
 
-    @GetMapping("/admin/cinema/all")
+    @GetMapping("/all")
     public ModelAndView allCinemas(ModelAndView modelAndView){
         Set<AllCinemaViewModel> allCinemaVModel = this
                 .cinemaService
@@ -47,25 +48,15 @@ public class CinemaController extends BaseController {
 
         modelAndView.addObject("allCinemas", allCinemaVModel);
 
-     //   modelAndView.setViewName("/admin/cinema-all");
-        return this.view("/admin/cinema-all", modelAndView);
+
+        return this.view("cinema-all", modelAndView);
 
     }
 
 
-
-    @GetMapping("/admin/cinema/add")
-    public ModelAndView addCinema(ModelAndView modelAndView, Model model) {
-        modelAndView.setViewName("/admin/cinema-add");
-        AllCinemaViewModel viewModel = new AllCinemaViewModel();
-        modelAndView.addObject("CinemaViewModel", viewModel);
-        return modelAndView;
-
-    }
-
-    @RequestMapping(value = "/admin/cinema/add", method = RequestMethod.POST)
+    @RequestMapping(value = "/add", method = RequestMethod.POST)
     public String addCinema(CinemaCreateBindingModel cinemaCreateBindingModel, BindingResult bindingResult, Model model) {
-        this.cinemaService.createCinema(this.modelMapper
+        this.cinemaService.addCinema(this.modelMapper
                 .map(cinemaCreateBindingModel
                         , CinemaServiceModel.class));
         return "redirect:/admin";
