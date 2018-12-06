@@ -9,9 +9,7 @@ import java.util.Set;
 
 public interface CinemaService {
 
-
-
-    void createCinema(CinemaServiceModel cinema);
+    boolean addCinema(CinemaServiceModel cinemaServiceModel);
 
     Set<CinemaServiceModel> getAll();
 

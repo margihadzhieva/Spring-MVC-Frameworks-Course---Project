@@ -7,6 +7,7 @@ import javax.persistence.OneToMany;
 import java.util.Set;
 
 public class CinemaServiceModel {
+   private String Id;
 
     private String cinemaName;
 

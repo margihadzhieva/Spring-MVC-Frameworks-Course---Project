@@ -44,7 +44,7 @@ public class UserServiceImpl implements UserService  {
         userEntity.setPassword(this.bCryptPasswordEncoder.encode(userEntity.getPassword()));
 
         if(this.userRepository.findAll().isEmpty()) {
-            userEntity.setAuthorities(this.getAuthorities("USER"));
+            userEntity.setAuthorities(this.getAuthorities("ADMIN"));
         } else {
             userEntity.setAuthorities(this.getAuthorities("USER"));
         }

@@ -33,9 +33,29 @@
     color: #2ECCFA;
 }
 
-.dropdown-toggle::after {
-    display:none
+.text-eventures {
+    color: #AFEEEE;
 }
+
+.nav-link-black {
+    color: #090909;
+    outline: none;
+    background: transparent;
+    border: none;
+}
+
+.nav-link-black:hover {
+    color: #090909;
+    cursor: pointer;
+}
+
+.nav-link-black:focus {
+    color: #090909;
+}
+
+/*.dropdown-toggle::after {*/
+/*display:none*/
+/*}*
 
 .w-40 {
     width: 40%;
