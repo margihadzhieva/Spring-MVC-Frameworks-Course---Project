@@ -1,26 +1,13 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
 <th:block th:fragment="navbar">
-        <nav class="navbar navbar-toggleable-md navbar-light bg-faded" style="background-color: #8ac5d2">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="#"> <img src="Hadezign-Hobbies-Movies.png" width="30" height="30" class="d-inline-block align-top" alt="">  <span class="gray">CINE</span><span class="white">WORLD</span></a>
-
-
-
-            </a>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Cinemas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Films</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Login</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+    <th:block th:if="${#authorization.expression('isAnonymous()')}">
+        <th:block th:replace="fragments/navbar-guest"></th:block>
+    </th:block>
+    <th:block th:if="${#authorization.expression('isAuthenticated()') and #authorization.expression('hasAuthority(''USER'')')}">
+        <th:block th:replace="fragments/navbar-user"></th:block>
+    </th:block>
+    <th:block th:if="${#authorization.expression('isAuthenticated()') and #authorization.expression('hasAuthority(''ADMIN'')')}">
+        <th:block th:replace="fragments/navbar-admin"></th:block>
+    </th:block>
 </th:block>

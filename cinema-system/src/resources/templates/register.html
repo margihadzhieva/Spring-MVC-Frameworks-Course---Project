@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <html lang="en" xmlns="http://www.w3.org/1999/xhtml"
           xmlns:th="http://www.thymeleaf.org">
     <head>
+        <th:block th:replace="fragments/head"></th:block>
     </head>
-
 <body>
-
+    <div class="container-fluid">
+<header>
+    <th:block th:replace="fragments/navbar"></th:block>
+</header>
 <main class="mt-3">
-    <h1 class="text-center font-weight-bold">Register</h1>
+    <h1 class="text-center font-weight-bold"> Register</h1>
+    <hr class="hr-2">
     <form class="w-40 mx-auto" th:action="@{/register}" th:method="POST">
         <div class="username-and-email-holder d-flex justify-content-between">
             <div class="form-group w-40">
@@ -55,7 +58,8 @@
             <button type="submit" >Register</button>
         </div>
     </form>
-</main>
 
+</main>
+</div>
 </body>
 </html>

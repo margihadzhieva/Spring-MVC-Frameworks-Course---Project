@@ -23,10 +23,10 @@ public class UserController extends BaseController {
         this.modelMapper = modelMapper;
     }
 
-//    @GetMapping("/login")
-//    public ModelAndView login() {
-//        return this.view("login");
-//    }
+    @GetMapping("/login")
+    public ModelAndView login() {
+        return this.view("login");
+    }
 
     @GetMapping("/register")
     public ModelAndView register() {

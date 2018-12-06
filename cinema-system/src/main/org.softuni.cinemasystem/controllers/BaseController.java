@@ -1,6 +1,8 @@
 package org.softuni.cinemasystem.controllers;
 
 
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.GrantedAuthority;
 import org.springframework.web.servlet.ModelAndView;
 
 abstract class BaseController {
@@ -18,5 +20,18 @@ abstract class BaseController {
 
     protected ModelAndView redirect(String route) {
         return this.view("redirect:" + route);
+    }
+
+
+    protected String getPrincipalAuthority(Authentication authentication) {
+        GrantedAuthority principalAuthority = authentication
+                .getAuthorities()
+                .stream()
+                .findFirst()
+                .orElse(null);
+
+        return principalAuthority != null
+                ? principalAuthority.getAuthority()
+                : null;
     }
 }

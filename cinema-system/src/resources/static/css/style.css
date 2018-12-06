@@ -36,3 +36,11 @@
 .dropdown-toggle::after {
     display:none
 }
+
+.w-40 {
+    width: 40%;
+}
+
+.hr-2 {
+    height: 2px;
+}
