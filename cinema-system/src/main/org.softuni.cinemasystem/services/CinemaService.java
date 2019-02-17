@@ -13,5 +13,7 @@ public interface CinemaService {
 
     Set<CinemaServiceModel> getAll();
 
+    public void addHall(String cinemaId, String hallName, Integer seats);
+
 
 }

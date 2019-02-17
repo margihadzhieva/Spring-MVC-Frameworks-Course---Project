@@ -7,7 +7,7 @@ import javax.persistence.OneToMany;
 import java.util.Set;
 
 public class CinemaServiceModel {
-   private String Id;
+   private String id;
 
     private String cinemaName;
 
@@ -21,6 +21,14 @@ public class CinemaServiceModel {
     private String email;
 
     public CinemaServiceModel() {
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getCinemaName() {

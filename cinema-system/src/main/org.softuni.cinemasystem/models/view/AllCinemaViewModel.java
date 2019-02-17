@@ -4,7 +4,7 @@ import java.util.Set;
 
 public class AllCinemaViewModel {
 
-    private String Id;
+    private String id;
 
     private String cinemaName;
 
@@ -19,11 +19,11 @@ public class AllCinemaViewModel {
     }
 
     public String getId() {
-        return Id;
+        return id;
     }
 
     public void setId(String id) {
-        Id = id;
+        this.id = id;
     }
 
     public String getCinemaName() {

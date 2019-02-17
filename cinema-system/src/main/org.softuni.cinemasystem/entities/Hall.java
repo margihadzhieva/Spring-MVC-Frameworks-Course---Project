@@ -12,17 +12,20 @@ public class Hall extends BaseEntity {
 
     private String hallName;
 
+    private Integer seats;
 
-    private Set<Cinema> cinemas;
+    private Cinema cinema;
 
 
     private Set<FilmSession>  filmSessions;
 
 
-    private Set<Row> rows;
+
+
+ //   private Set<Row> rows;
 
     public Hall() {
-        this.cinemas = new HashSet<>();
+
 
     }
 
@@ -31,18 +34,29 @@ public class Hall extends BaseEntity {
         return hallName;
     }
 
+
     public void setHallName(String hallName) {
         this.hallName = hallName;
     }
-    @ManyToMany
-    @JoinTable(name = "cinemas_halls")
-    public Set<Cinema> getCinemas() {
-        return cinemas;
+
+    public Integer getSeats() {
+        return seats;
     }
 
-    public void setCinemas(Set<Cinema> cinemas) {
-        this.cinemas = cinemas;
+    public void setSeats(Integer seats) {
+        this.seats = seats;
     }
+
+    @ManyToOne
+    @JoinColumn(name = "cinema")
+    public Cinema getCinema() {
+        return cinema;
+    }
+
+    public void setCinema(Cinema cinema) {
+        this.cinema = cinema;
+    }
+
     @OneToMany(mappedBy = "hall")
     public Set<FilmSession> getFilmSessions() {
         return filmSessions;
@@ -51,12 +65,12 @@ public class Hall extends BaseEntity {
     public void setFilmSessions(Set<FilmSession> filmSessions) {
         this.filmSessions = filmSessions;
     }
-    @OneToMany
-    public Set<Row> getRows() {
-        return rows;
-    }
-
-    public void setRows(Set<Row> rows) {
-        this.rows = rows;
-    }
+//    @OneToMany
+//    public Set<Row> getRows() {
+//        return rows;
+//    }
+//
+//    public void setRows(Set<Row> rows) {
+//        this.rows = rows;
+//    }
 }

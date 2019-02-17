@@ -90,20 +90,20 @@ public class HallController extends BaseController {
 //    }
 
 
-    @PostMapping("/admin/hall/add")
-    public ModelAndView addVirusConfirm(@ModelAttribute(name = "hallInput") HallAddBindingModel hallAddBindingModel,
-                                        BindingResult bindingResult,
-                                        ModelAndView modelAndView) {
-        if (bindingResult.hasErrors()) {
-
-            modelAndView.setViewName("redirect:add");
-        } else {
-            this.hallService.createHall(hallAddBindingModel);
-            modelAndView.setViewName("redirect:index");
-        }
-
-            return modelAndView;
-        }
+//    @PostMapping("/admin/hall/add")
+//    public ModelAndView addVirusConfirm(@ModelAttribute(name = "hallInput") HallAddBindingModel hallAddBindingModel,
+//                                        BindingResult bindingResult,
+//                                        ModelAndView modelAndView) {
+//        if (bindingResult.hasErrors()) {
+//
+//            modelAndView.setViewName("redirect:add");
+//        } else {
+//            this.hallService.createHall(hallAddBindingModel);
+//            modelAndView.setViewName("redirect:index");
+//        }
+//
+//            return modelAndView;
+//        }
 
     }
 

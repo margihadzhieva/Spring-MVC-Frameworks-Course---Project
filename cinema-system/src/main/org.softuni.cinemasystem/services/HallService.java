@@ -15,7 +15,7 @@ public interface HallService {
 
     HallServiceModel getHallByID(String Id);
 
-    void createHall(HallAddBindingModel hallAddBindingModel);
+  //  void createHall(HallAddBindingModel hallAddBindingModel);
 
 
     // void createHall(HallAddBindingModel hallServiceModel);

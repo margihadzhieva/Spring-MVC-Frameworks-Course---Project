@@ -34,13 +34,10 @@ public class HallServiceImpl implements HallService {
 
 
     @Override
- public   void createHall(HallServiceModel hall) {
-        Hall hallEntity = this.modelMapper.map(hall, Hall.class);
-
-      hallEntity.setCinemas(hall.getCinemas().stream().map(x -> this.cinemaRepository.findByCinemaName(x)).collect(Collectors.toSet()));
+    public void createHall(HallServiceModel hallServiceModel) {
+        Hall hallEntity = this.modelMapper.map(hallServiceModel, Hall.class);
 
         this.hallRepository.save(hallEntity);
-
     }
 
     @Override
@@ -67,13 +64,12 @@ public class HallServiceImpl implements HallService {
         return this.modelMapper.map(hallEntity, HallServiceModel.class);
     }
 
-    @Override
-    public void createHall(HallAddBindingModel hall) {
-        Hall hallEntity = this.modelMapper.map(hall, Hall.class);
+//    @Override
+//    public void createHall(HallAddBindingModel hall) {
+//        Hall hallEntity = this.modelMapper.map(hall, Hall.class);
+//
+//
+//        this.hallRepository.save(hallEntity);
 
-        hallEntity.setCinemas(hall.getCinemas().stream().map(this.cinemaRepository::findByCinemaName).collect(Collectors.toSet()));
-
-        this.hallRepository.save(hallEntity);
-
-    }
+    //}
 }

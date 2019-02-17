@@ -1,35 +1,28 @@
 package org.softuni.cinemasystem.models.binding;
 
 import org.softuni.cinemasystem.entities.Cinema;
+import org.softuni.cinemasystem.entities.FilmSession;
 
 import java.util.Set;
 
 public class HallAddBindingModel {
 
-    private String Id;
-
+    private String cinemaId;
     private String hallName;
 
+    private Integer seats;
 
-    private Set<String> cinemas;
-
-
-    private Set<String> Seats;
-
-
-    private Set<String> filmSessions;
-
-    private Set<String> rows;
+    private Set<FilmSession> filmSessions;
 
     public HallAddBindingModel() {
     }
 
-    public String getId() {
-        return Id;
+    public String getCinemaId() {
+        return cinemaId;
     }
 
-    public void setId(String id) {
-        Id = id;
+    public void setCinemaId(String cinemaId) {
+        this.cinemaId = cinemaId;
     }
 
     public String getHallName() {
@@ -40,39 +33,19 @@ public class HallAddBindingModel {
         this.hallName = hallName;
     }
 
-    public Set<String> getCinemas() {
-        return cinemas;
+    public Integer getSeats() {
+        return seats;
     }
 
-    public void setCinemas(Set<String> cinemas) {
-        this.cinemas = cinemas;
+    public void setSeats(Integer seats) {
+        this.seats = seats;
     }
 
-    public Set<String> getSeats() {
-        return Seats;
-    }
-
-    public void setSeats(Set<String> seats) {
-        Seats = seats;
-    }
-
-    public Set<String> getFilmSessions() {
+    public Set<FilmSession> getFilmSessions() {
         return filmSessions;
     }
 
-    public void setFilmSessions(Set<String> filmSessions) {
+    public void setFilmSessions(Set<FilmSession> filmSessions) {
         this.filmSessions = filmSessions;
     }
-
-    public Set<String> getRows() {
-        return rows;
-    }
-
-    public void setRows(Set<String> rows) {
-        this.rows = rows;
-    }
-
-
 }
-
-
