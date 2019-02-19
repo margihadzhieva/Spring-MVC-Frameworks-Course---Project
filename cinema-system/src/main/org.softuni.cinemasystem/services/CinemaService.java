@@ -15,5 +15,7 @@ public interface CinemaService {
 
     public void addHall(String cinemaId, String hallName, Integer seats);
 
+    String getCinemaNameById(String cinemaId);
+
 
 }

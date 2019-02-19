@@ -15,6 +15,8 @@ public interface HallService {
 
     HallServiceModel getHallByID(String Id);
 
+    Set<HallServiceModel> getHallsByCinemaId(String Id);
+
   //  void createHall(HallAddBindingModel hallAddBindingModel);
 
 

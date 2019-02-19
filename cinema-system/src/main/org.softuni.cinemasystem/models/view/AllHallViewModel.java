@@ -11,16 +11,12 @@ public class AllHallViewModel {
 
     private String hallName;
 
+    private Integer seats;
+
 
     private Cinema cinema;
 
 
-    private Set<String> Seats;
-
-
-    private Set<String> filmSessions;
-
-    private Set<String> rows;
 
     public AllHallViewModel() {
     }
@@ -41,6 +37,14 @@ public class AllHallViewModel {
         this.hallName = hallName;
     }
 
+    public Integer getSeats() {
+        return seats;
+    }
+
+    public void setSeats(Integer seats) {
+        this.seats = seats;
+    }
+
     public Cinema getCinema() {
         return cinema;
     }
@@ -48,30 +52,4 @@ public class AllHallViewModel {
     public void setCinema(Cinema cinema) {
         this.cinema = cinema;
     }
-
-    public Set<String> getSeats() {
-        return Seats;
-    }
-
-    public void setSeats(Set<String> seats) {
-        Seats = seats;
-    }
-
-    public Set<String> getFilmSessions() {
-        return filmSessions;
-    }
-
-    public void setFilmSessions(Set<String> filmSessions) {
-        this.filmSessions = filmSessions;
-    }
-
-    public Set<String> getRows() {
-        return rows;
-    }
-
-    public void setRows(Set<String> rows) {
-        this.rows = rows;
-    }
-
-
 }

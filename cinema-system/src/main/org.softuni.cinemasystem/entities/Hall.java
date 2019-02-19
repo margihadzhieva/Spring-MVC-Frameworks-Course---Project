@@ -48,7 +48,7 @@ public class Hall extends BaseEntity {
     }
 
     @ManyToOne
-    @JoinColumn(name = "cinema")
+    @JoinColumn(name = "cinema_id")
     public Cinema getCinema() {
         return cinema;
     }

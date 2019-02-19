@@ -72,6 +72,15 @@ public class CinemaServiceImpl implements CinemaService{
 
 
     }
+
+    @Override
+    public String getCinemaNameById(String cinemaId) {
+        Cinema cinema = this.cinemaRepository.findById(cinemaId)
+                .orElse(null);
+
+
+    return cinema.getCinemaName();
+    }
 }
 
 

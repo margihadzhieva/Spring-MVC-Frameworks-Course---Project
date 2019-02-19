@@ -38,19 +38,20 @@ public class HallController extends BaseController {
         this.modelMapper = modelMapper;
     }
 
-    @GetMapping("/admin/hall")
-    public ModelAndView allHalls(ModelAndView modelAndView) {
+    @GetMapping("/cinema/halls")
+    public ModelAndView allHalls(ModelAndView modelAndView, String cinemaId) {
         Set<AllHallViewModel> allHallViewModel = this
                 .hallService
-                .getAllHalls()
+                .getHallsByCinemaId(cinemaId)
                 .stream()
                 .map(x -> this.modelMapper.map(x, AllHallViewModel.class))
                 .collect(Collectors.toSet());
 
-        modelAndView.addObject("allHalls", allHallViewModel);
 
-        //   modelAndView.setViewName("/admin/hall-all");
-        return this.view("/admin/hall-all", modelAndView);
+
+        modelAndView.addObject("allHalls", allHallViewModel);
+        modelAndView.addObject("cinemaName", cinemaService.getCinemaNameById(cinemaId)  );
+        return this.view("hall", modelAndView);
 
     }
 
@@ -73,37 +74,12 @@ public class HallController extends BaseController {
 
 
 
-       // AllHallViewModel viewModel = new AllHallViewModel();
-       // modelAndView.addObject("cinemas", cinemaService.getAll());
+
         modelAndView.addObject("HallViewModel", viewModel);
         return modelAndView;
 
     }
 
-//    @PostMapping("/admin/hall/add")
-//    public String addHall(HallAddBindingModel hallAddBindingModel, BindingResult bindingResult, Model model) {
-//
-//        this.hallService.createHall(this.modelMapper
-//                .map(hallAddBindingModel
-//                        , HallServiceModel.class));
-//        return "redirect:/admin";
-//    }
-
-
-//    @PostMapping("/admin/hall/add")
-//    public ModelAndView addVirusConfirm(@ModelAttribute(name = "hallInput") HallAddBindingModel hallAddBindingModel,
-//                                        BindingResult bindingResult,
-//                                        ModelAndView modelAndView) {
-//        if (bindingResult.hasErrors()) {
-//
-//            modelAndView.setViewName("redirect:add");
-//        } else {
-//            this.hallService.createHall(hallAddBindingModel);
-//            modelAndView.setViewName("redirect:index");
-//        }
-//
-//            return modelAndView;
-//        }
 
     }
 

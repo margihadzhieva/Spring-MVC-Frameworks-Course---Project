@@ -17,20 +17,29 @@
             <tr class="font-weight-bold">
                 <th class="w-5">#</th>
                 <th class="w-30">Cinema</th>
-                <th class="w-15">Address</th>
-                <th class="w-15">Phone</th>
-                <th class="w-25">Email</th>
-                <th class="w-10">Add Hall</th>
+                <th class="w-30">Address</th>
+                <th class="w-30">Phone</th>
+                <th class="w-30">Email</th>
+                <th class="w-20">Halls</th>
             </tr>
             </thead>
             <tbody>
             <tr th:each="cinema, iter : ${allCinemas}" th:object="${cinema}">
                 <td class="w-5" th:text="${iter.index + 1}"></td>
                 <td class="w-30" th:text="*{cinemaName}"></td>
-                <td class="w-15" th:text="*{address}"></td>
-                <td class="w-15" th:text="*{phone}"></td>
-                <td class="w-25" th:text="*{email}"></td>
-                <td class="w-10">
+                <td class="w-30" th:text="*{address}"></td>
+                <td class="w-30" th:text="*{phone}"></td>
+                <td class="w-30" th:text="*{email}"></td>
+                <td class="w-20">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                    <form class="form-inline d-flex justify-content-between" th:action="@{/cinema/halls}">
+                        <div class="form-group w-75">
+                            <input type="hidden" name="cinemaId" th:value="*{id}">
+                        </div>
+                        <div class="btn bg-cinema">
+                            <button type="submit" class="btn bg-cinema">View Halls</button>
+                        </div>
+                    </form>
                     <button type="button" class="btn bg-cinema" data-toggle="modal" th:data-target="*{'#hallFormModal' + id}">Add Hall</button>
                     <!--Modal-->
                     <div class="modal fade" th:id="*{'hallFormModal' + id}" tabindex="-1" role="dialog" th:aria-labelledby="*{'hallModalLabel' + id}"
@@ -61,6 +70,7 @@
                                 </form>
                             </div>
                         </div>
+                    </div>
                     </div>
                 </td>
             </tr>

@@ -14,6 +14,8 @@ public class HallAddBindingModel {
 
     private Set<FilmSession> filmSessions;
 
+    private String test;
+
     public HallAddBindingModel() {
     }
 
@@ -47,5 +49,13 @@ public class HallAddBindingModel {
 
     public void setFilmSessions(Set<FilmSession> filmSessions) {
         this.filmSessions = filmSessions;
+    }
+
+    public String getTest() {
+        return test;
+    }
+
+    public void setTest(String test) {
+        this.test = test;
     }
 }

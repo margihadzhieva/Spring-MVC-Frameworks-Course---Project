@@ -64,6 +64,22 @@ public class HallServiceImpl implements HallService {
         return this.modelMapper.map(hallEntity, HallServiceModel.class);
     }
 
+    @Override
+    public Set<HallServiceModel> getHallsByCinemaId(String Id) {
+
+
+        Set<HallServiceModel> test = this.hallRepository
+                .findAllByCinemaId(Id)
+                .stream()
+                .map(x -> this.modelMapper.map(x, HallServiceModel.class))
+                .collect(Collectors.toSet());
+
+        if (test == null) {
+            throw new IllegalArgumentException("Cinema can not be null");
+        }
+            return test; }
+}
+
 //    @Override
 //    public void createHall(HallAddBindingModel hall) {
 //        Hall hallEntity = this.modelMapper.map(hall, Hall.class);
@@ -72,4 +88,3 @@ public class HallServiceImpl implements HallService {
 //        this.hallRepository.save(hallEntity);
 
     //}
-}
