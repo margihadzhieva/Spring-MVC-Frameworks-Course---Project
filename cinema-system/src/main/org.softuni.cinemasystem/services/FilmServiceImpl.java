@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
+import java.util.stream.Collectors;
 
 @Service
 public class FilmServiceImpl implements FilmService {
@@ -36,6 +37,10 @@ public class FilmServiceImpl implements FilmService {
 
     @Override
     public Set<FilmServiceModel> getAll() {
-        return null;
+        return this.filmRepository
+                .findAll()
+                .stream()
+                .map(x -> this.modelMapper.map(x, FilmServiceModel.class))
+                .collect(Collectors.toSet());
     }
 }

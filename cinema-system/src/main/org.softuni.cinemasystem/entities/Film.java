@@ -3,6 +3,7 @@ package org.softuni.cinemasystem.entities;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.time.LocalTime;
 import java.util.Date;
 import java.util.Set;
 

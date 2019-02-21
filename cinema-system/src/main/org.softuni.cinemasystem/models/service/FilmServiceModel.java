@@ -1,5 +1,8 @@
 package org.softuni.cinemasystem.models.service;
 
+import javax.persistence.criteria.CriteriaBuilder;
+import java.time.LocalTime;
+
 public class FilmServiceModel {
     private String Id;
 

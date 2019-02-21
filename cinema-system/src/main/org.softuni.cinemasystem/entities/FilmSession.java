@@ -14,9 +14,13 @@ public class FilmSession extends BaseEntity {
 
     private Film film;
 
+    private Cinema cinema;
+
     private Hall hall;
 
-    private Set<Ticket> tickets;
+    private Integer remainingTickets;
+
+    private Integer tickets;
 
 
     public FilmSession() {
@@ -50,12 +54,27 @@ public class FilmSession extends BaseEntity {
         this.hall = hall;
     }
 
-    @OneToMany(mappedBy = "filmSession")
-    public Set<Ticket> getTickets() {
+    public Cinema getCinema() {
+        return cinema;
+    }
+
+    public void setCinema(Cinema cinema) {
+        this.cinema = cinema;
+    }
+
+    public Integer getRemainingTickets() {
+        return remainingTickets;
+    }
+
+    public void setRemainingTickets(Integer remainingTickets) {
+        this.remainingTickets = remainingTickets;
+    }
+
+    public Integer getTickets() {
         return tickets;
     }
 
-    public void setTickets(Set<Ticket> tickets) {
+    public void setTickets(Integer tickets) {
         this.tickets = tickets;
     }
 }

@@ -23,8 +23,18 @@
                         Films
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" th:href="@{/events/all}">All Films</a>
-                        <a class="dropdown-item" th:href="@{/events/my}">My Films</a>
+                        <a class="dropdown-item" th:href="@{/film/add}">Add Film</a>
+                        <a class="dropdown-item" th:href="@{/film/all}">All Films</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Film Sessions
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" th:href="@{/film/add}">Add Film Session</a>
+                        <a class="dropdown-item" th:href="@{/film/all}">All Film Sessions</a>
                     </div>
                 </li>
                 <li class="nav-item">

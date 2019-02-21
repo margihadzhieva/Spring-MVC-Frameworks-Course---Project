@@ -3,12 +3,7 @@ package org.softuni.cinemasystem.models.service;
 
 import org.softuni.cinemasystem.entities.Cinema;
 import org.softuni.cinemasystem.entities.FilmSession;
-import org.softuni.cinemasystem.entities.Row;
 
-import javax.persistence.Column;
-import javax.persistence.JoinTable;
-import javax.persistence.ManyToMany;
-import javax.persistence.OneToMany;
 import java.util.Set;
 
 public class HallServiceModel {
