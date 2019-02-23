@@ -1,3 +1,10 @@
+.bg-cinema {
+    width: auto;
+    height: auto;
+    background-color: #d0d1b3;
+}
+
+
 .navbar-wine {
     background-color: #585858;
 }
@@ -51,6 +58,10 @@
 
 .nav-link-black:focus {
     color: #090909;
+}
+
+.w-40 {
+    width: 40%;
 }
 
 /*.dropdown-toggle::after {*/

@@ -65,6 +65,21 @@ public class HallServiceImpl implements HallService {
     }
 
     @Override
+    public Set<HallServiceModel> getAllHallsAndCinema() {
+        return this.hallRepository
+                .findAll()
+                .stream()
+                .map(x -> modelMapper.map(x, HallServiceModel.class))
+                .collect(Collectors.toSet());
+
+
+    }
+
+
+
+
+
+    @Override
     public Set<HallServiceModel> getHallsByCinemaId(String Id) {
 
 

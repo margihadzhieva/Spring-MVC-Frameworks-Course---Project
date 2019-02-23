@@ -12,7 +12,7 @@ public class HallAddBindingModel {
 
     private Integer seats;
 
-    private Set<FilmSession> filmSessions;
+
 
     private String test;
 
@@ -41,14 +41,6 @@ public class HallAddBindingModel {
 
     public void setSeats(Integer seats) {
         this.seats = seats;
-    }
-
-    public Set<FilmSession> getFilmSessions() {
-        return filmSessions;
-    }
-
-    public void setFilmSessions(Set<FilmSession> filmSessions) {
-        this.filmSessions = filmSessions;
     }
 
     public String getTest() {

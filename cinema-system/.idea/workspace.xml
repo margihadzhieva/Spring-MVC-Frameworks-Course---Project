@@ -3,25 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="f2e08539-c910-4daf-8441-c7fdd3d58e5e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/controllers/FilmController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/controllers/FilmController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/entities/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/entities/Film.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/entities/FilmSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/entities/FilmSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/entities/Row.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/entities/Seat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/entities/Ticket.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/service/FilmServiceModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/service/FilmServiceModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/binding/HallAddBindingModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/binding/HallAddBindingModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/service/HallServiceModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/service/HallServiceModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/repositories/RowRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/repositories/RowRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/repositories/TicketRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/repositories/TicketRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/FilmServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/FilmServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/templates/film-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/templates/film-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/repositories/HallRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/repositories/HallRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/repositories/RowRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/repositories/TicketRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/HallService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/HallService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/HallServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/HallServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/templates/cinema-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/templates/cinema-add.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/templates/fragments/navbar-admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/templates/fragments/navbar-admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/cinemasystem/controllers/FilmController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/softuni/cinemasystem/controllers/FilmController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/cinemasystem/entities/Film.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/softuni/cinemasystem/entities/Film.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/cinemasystem/models/service/FilmServiceModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/softuni/cinemasystem/models/service/FilmServiceModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/cinemasystem/services/FilmServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/softuni/cinemasystem/services/FilmServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/film-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/film-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/cinemasystem/entities/FilmSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/softuni/cinemasystem/entities/FilmSession.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/cinemasystem/entities/Row.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/cinemasystem/entities/Seat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/cinemasystem/entities/Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/cinemasystem/models/binding/HallAddBindingModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/softuni/cinemasystem/models/binding/HallAddBindingModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/cinemasystem/models/service/HallServiceModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/softuni/cinemasystem/models/service/HallServiceModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/cinemasystem/repositories/RowRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/cinemasystem/repositories/TicketRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/cinema-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/cinema-add.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/navbar-admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/navbar-admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/register.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,10 +57,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/CinemaServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/HallServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="48" />
+            <state relative-caret-position="187">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/repositories/RoleRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -64,100 +77,92 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/HallService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="202">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/HallServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/repositories/HallRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="37" column="77" lean-forward="true" selection-start-line="37" selection-start-column="77" selection-end-line="37" selection-end-column="77" />
+            <state relative-caret-position="-5">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/FilmSessionService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/controllers/FilmSessionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
+            <state relative-caret-position="69">
+              <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/templates/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="63" column="7" lean-forward="true" selection-end-line="63" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/entities/Hall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/templates/film-all.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/FilmSessionImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/resources/templates/filmSession-add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="136">
+              <caret line="39" column="72" selection-start-line="39" selection-start-column="72" selection-end-line="39" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/view/AllHallViewModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#708#709#0" expanded="true" />
+                <element signature="e#741#742#0" expanded="true" />
+                <element signature="e#770#771#0" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/entities/FilmSession.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#998#999#0" expanded="true" />
-                <element signature="e#1027#1028#0" expanded="true" />
-                <element signature="e#1071#1072#0" expanded="true" />
-                <element signature="e#1107#1108#0" expanded="true" />
-                <element signature="e#1151#1152#0" expanded="true" />
-                <element signature="e#1190#1191#0" expanded="true" />
-                <element signature="e#1255#1256#0" expanded="true" />
-                <element signature="e#1311#1312#0" expanded="true" />
-                <element signature="e#1346#1347#0" expanded="true" />
-                <element signature="e#1376#1377#0" expanded="true" />
-                <element signature="e#1423#1424#0" expanded="true" />
-                <element signature="e#1461#1462#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/repositories/FilmRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/repositories/FilmSessionRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/service/HallServiceModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/FilmServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -190,13 +195,8 @@
         <option value="$PROJECT_DIR$/target/classes/application.properties" />
         <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/view/AllCinemaViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/service/CinemaServiceModel.java" />
-        <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/service/HallServiceModel.java" />
-        <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/binding/HallAddBindingModel.java" />
-        <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/HallService.java" />
-        <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/HallServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/controllers/CinemaController.java" />
         <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/entities/Hall.java" />
-        <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/repositories/HallRepository.java" />
         <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/view/AllHallViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/CinemaService.java" />
@@ -213,12 +213,23 @@
         <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/view/AllFilmsViewModel.java" />
         <option value="$PROJECT_DIR$/src/resources/templates/film-add.html" />
         <option value="$PROJECT_DIR$/src/resources/templates/film-all.html" />
-        <option value="$PROJECT_DIR$/src/resources/templates/fragments/navbar-admin.html" />
-        <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/entities/FilmSession.java" />
-        <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/controllers/FilmSessionController.java" />
         <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/service/FilmSessionServiceModel.java" />
         <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/FilmSession.java" />
         <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/FilmSessionImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/binding/HallAddBindingModel.java" />
+        <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/binding/FilmSessionBindingModel.java" />
+        <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/entities/FilmSession.java" />
+        <option value="$PROJECT_DIR$/src/resources/templates/fragments/navbar-admin.html" />
+        <option value="$PROJECT_DIR$/src/resources/static/css/style.css" />
+        <option value="$PROJECT_DIR$/src/resources/templates/register.html" />
+        <option value="$PROJECT_DIR$/src/resources/templates/cinema-add.html" />
+        <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/HallService.java" />
+        <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/service/HallServiceModel.java" />
+        <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/repositories/HallRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/HallServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/view/AddFilmSessionViewModel.java" />
+        <option value="$PROJECT_DIR$/src/main/org.softuni.cinemasystem/controllers/FilmSessionController.java" />
+        <option value="$PROJECT_DIR$/src/resources/templates/filmSession-add.html" />
       </list>
     </option>
   </component>
@@ -233,9 +244,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="647" />
-    <option name="y" value="161" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="446" />
+    <option name="y" value="154" />
     <option name="width" value="1270" />
     <option name="height" value="735" />
   </component>
@@ -350,7 +361,7 @@
               <item name="cinemaSystem" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="cinemaSystem" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -358,7 +369,6 @@
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="fragments" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -375,7 +385,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550771989572" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550933283424" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Eventures-master/Eventures-master/eventures" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -389,6 +399,7 @@
       <recent name="C:\Users\Daisy\Desktop\Spring-MVC-Frameworks-Course---Project\cinema-system\src\resources\templates" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Daisy\Desktop\Spring-MVC-Frameworks-Course---Project\cinema-system\src\resources\templates" />
       <recent name="C:\Users\Daisy\Desktop\Spring-MVC-Frameworks-Course---Project\cinema-system\src\resources\templates\fragments" />
       <recent name="C:\Users\Daisy\Desktop\Spring-MVC-Frameworks-Course---Project\cinema-system\target\classes\templates" />
     </key>
@@ -431,18 +442,18 @@
       <workItem from="1550392036922" duration="5332000" />
       <workItem from="1550403494189" duration="16168000" />
       <workItem from="1550590455536" duration="10787000" />
-      <workItem from="1550761006955" duration="10060000" />
+      <workItem from="1550761006955" duration="29343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66232000" />
+    <option name="totallyTimeSpent" value="85515000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21482602" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28441754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -452,19 +463,19 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8396369" visible="true" weight="0.17512275" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7579425" weight="0.49099836" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8350983" visible="true" weight="0.42880523" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7450832" weight="0.49099836" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49921507" weight="0.33388704" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1603631" side_tool="true" visible="true" weight="0.17512275" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.16490166" side_tool="true" visible="true" weight="0.42880523" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49924356" weight="0.32242227" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49621785" weight="0.32242227" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -474,7 +485,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.32980332" />
-      <window_info anchor="right" id="Bean Validation" order="9" sideWeight="0.4973404" visible="true" weight="0.022692889" />
+      <window_info anchor="right" id="Bean Validation" order="9" sideWeight="0.4973404" visible="true" weight="0.023449318" />
       <window_info anchor="right" id="Coverage" order="10" sideWeight="0.50265956" side_tool="true" visible="true" weight="0.029500756" />
     </layout>
     <layout-to-restore>
@@ -551,19 +562,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/HallServiceImpl.java</url>
-          <line>72</line>
+          <line>87</line>
           <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/HallServiceImpl.java</url>
-          <line>74</line>
+          <line>89</line>
           <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/HallServiceImpl.java</url>
-          <line>71</line>
+          <line>86</line>
           <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
@@ -615,6 +626,42 @@
           <properties />
           <option name="timeStamp" value="69" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/HallServiceImpl.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/HallServiceImpl.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/HallServiceImpl.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/HallServiceImpl.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/controllers/FilmSessionController.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/controllers/FilmSessionController.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/controllers/CinemaController.java</url>
           <line>68</line>
@@ -633,173 +680,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/HallServiceImpl.java</url>
-          <line>67</line>
+          <line>82</line>
           <properties class="org.softuni.cinemasystem.services.HallServiceImpl" method="getHallsByCinemaId">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/HallServiceImpl.java</url>
+          <line>67</line>
+          <properties class="org.softuni.cinemasystem.services.HallServiceImpl" method="getAllHallsAndCinema">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.4.RELEASE/spring-webmvc-5.0.4.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6562">
-          <caret line="484" selection-start-line="484" selection-end-line="484" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.4.RELEASE/spring-webmvc-5.0.4.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6001">
-          <caret line="425" selection-start-line="425" selection-end-line="425" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/templates/cinema-add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/templates/admin-home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/repositories/RoleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/entities/Row.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/entities/Seat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/entities/Ticket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/entities/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/entities/UserRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/entities/Hall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/binding/CinemaCreateBindingModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/view/AddHallViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/view/AllCinemaViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/binding/HallAddBindingModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
-          <folding>
-            <element signature="e#1111#1112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/view/AllHallViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/entities/Cinema.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -814,16 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/repositories/HallRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -852,51 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/controllers/CinemaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="56" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/entities/Film.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-          <folding>
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/binding/FilmAddBindingModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/controllers/HallController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="41" column="78" lean-forward="true" selection-start-line="41" selection-start-column="78" selection-end-line="41" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/templates/film-add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -934,41 +781,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/templates/film-all.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/templates/fragments/navbar-admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/CinemaService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/controllers/FilmController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/controllers/FilmSessionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -989,72 +805,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/service/FilmSessionServiceModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1101#1102#0" expanded="true" />
-            <element signature="e#1130#1131#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-            <element signature="e#1239#1240#0" expanded="true" />
-            <element signature="e#1266#1267#0" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1336#1337#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/service/HallServiceModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/entities/FilmSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#998#999#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-            <element signature="e#1107#1108#0" expanded="true" />
-            <element signature="e#1151#1152#0" expanded="true" />
-            <element signature="e#1190#1191#0" expanded="true" />
-            <element signature="e#1255#1256#0" expanded="true" />
-            <element signature="e#1311#1312#0" expanded="true" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1423#1424#0" expanded="true" />
-            <element signature="e#1461#1462#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1072,30 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/FilmSessionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/HallServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="37" column="77" lean-forward="true" selection-start-line="37" selection-start-column="77" selection-end-line="37" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/HallService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/CinemaServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1110,13 +840,356 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/FilmSessionImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/controllers/HallController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="17">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/binding/FilmAddBindingModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/binding/CinemaCreateBindingModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/binding/UserRegisterBindingModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/binding/HallAddBindingModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/binding/FilmSessionBindingModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1224#1225#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1315#1316#0" expanded="true" />
+            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
+            <element signature="e#1430#1431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/controllers/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/controllers/CinemaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/entities/Film.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+          <folding>
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/templates/cinema-all.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/repositories/TicketRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/entities/FilmSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+          <folding>
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1107#1108#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+            <element signature="e#1311#1312#0" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
+            <element signature="e#1376#1377#0" expanded="true" />
+            <element signature="e#1423#1424#0" expanded="true" />
+            <element signature="e#1461#1462#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/controllers/FilmController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="35" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/templates/admin-home.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/templates/user-home.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/templates/film-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/templates/fragments/navbar-admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="47" column="11" lean-forward="true" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/templates/cinema-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="44" column="18" lean-forward="true" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/service/FilmSessionServiceModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/FilmSessionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/FilmSessionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/service/HallServiceModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/view/AddFilmSessionViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="e#1369#1370#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/models/view/AllHallViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/templates/film-all.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/HallService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/services/HallServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/repositories/RoleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/repositories/HallRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/entities/Hall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/org.softuni.cinemasystem/controllers/FilmSessionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="63" column="7" lean-forward="true" selection-end-line="63" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/templates/filmSession-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="39" column="72" selection-start-line="39" selection-start-column="72" selection-end-line="39" selection-end-column="72" />
         </state>
       </provider>
     </entry>

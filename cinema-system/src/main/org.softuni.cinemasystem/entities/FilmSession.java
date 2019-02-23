@@ -54,6 +54,8 @@ public class FilmSession extends BaseEntity {
         this.hall = hall;
     }
 
+    @ManyToOne
+    @JoinColumn(name = "cinema")
     public Cinema getCinema() {
         return cinema;
     }

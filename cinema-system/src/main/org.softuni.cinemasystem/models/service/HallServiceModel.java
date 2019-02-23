@@ -3,6 +3,7 @@ package org.softuni.cinemasystem.models.service;
 
 import org.softuni.cinemasystem.entities.Cinema;
 import org.softuni.cinemasystem.entities.FilmSession;
+import org.softuni.cinemasystem.entities.Hall;
 
 import java.util.Set;
 

@@ -13,6 +13,10 @@ public interface HallService {
 
     Set<HallServiceModel> getAllHalls();
 
+
+    Set<HallServiceModel> getAllHallsAndCinema();
+
+
     HallServiceModel getHallByID(String Id);
 
     Set<HallServiceModel> getHallsByCinemaId(String Id);
