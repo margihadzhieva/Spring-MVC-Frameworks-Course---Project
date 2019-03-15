@@ -17,9 +17,6 @@ public class HallServiceModel {
 
     private Cinema cinema;
 
-
-    private Set<FilmSession>  filmSessions;
-
     public HallServiceModel() {
     }
 
@@ -53,14 +50,6 @@ public class HallServiceModel {
 
     public void setCinema(Cinema cinema) {
         this.cinema = cinema;
-    }
-
-    public Set<FilmSession> getFilmSessions() {
-        return filmSessions;
-    }
-
-    public void setFilmSessions(Set<FilmSession> filmSessions) {
-        this.filmSessions = filmSessions;
     }
 }
 
