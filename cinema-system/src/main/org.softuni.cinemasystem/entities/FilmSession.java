@@ -35,7 +35,7 @@ public class FilmSession extends BaseEntity {
     }
 
     @ManyToOne
-    @JoinColumn(name = "film_id")
+    @JoinColumn(name = "film")
     public Film getFilm() {
         return film;
     }

@@ -16,4 +16,8 @@ public interface HallRepository  extends JpaRepository<Hall,String> {
     List<Hall> findAllByCinemaId(@Param("cinemaId") String cinemaId);
 
 
+
+    Hall findByhallName(String name);
+
+
 }
