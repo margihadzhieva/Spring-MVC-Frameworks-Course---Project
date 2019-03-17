@@ -10,7 +10,7 @@ import java.util.Set;
 @Table(name = "film_session")
 public class FilmSession extends BaseEntity {
 
-    private LocalDateTime time;
+    private LocalDateTime startTime;
 
     private Film film;
 
@@ -26,12 +26,12 @@ public class FilmSession extends BaseEntity {
     public FilmSession() {
     }
 
-    public LocalDateTime getTime() {
-        return time;
+    public LocalDateTime getStartTime() {
+        return startTime;
     }
 
-    public void setTime(LocalDateTime time) {
-        this.time = time;
+    public void setStartTime(LocalDateTime startTime) {
+        this.startTime = startTime;
     }
 
     @ManyToOne
